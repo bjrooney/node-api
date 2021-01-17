@@ -8,4 +8,4 @@ const server = new http.Server(app);
 server.listen(process.env.PORT);
 
 import getAllUsersController from './controllers/getAllUsersController';
-app.get('');
+app.get('/users/all', getAllUsersController);
