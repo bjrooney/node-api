@@ -6,7 +6,6 @@
   "scripts": {
     "start": "nodemon ./src/index.ts",
     "build": "tsc --project ./tsconfig.json"
-
   },
   "author": "",
   "license": "ISC",
